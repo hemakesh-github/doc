@@ -2,7 +2,7 @@
 
 ## Description.  
 
-Townhouse is an innovative community engagement platform aimed at enhancing community and resident engagement within neighbourhoods. Our goal is to provide a transparent centralised digital space where residents can connect, communicate, and collaborate with one another and local government agencies and their local community.
+Townhouse is an innovative community engagement platform aimed at enhancing community and resident engagement within neighborhoods. Our goal is to provide a transparent centralized digital space where residents can connect, communicate, and collaborate with one another and local government agencies and their local community.
 
 Figma design: 
 
@@ -19,7 +19,7 @@ Deployment Link:
 
 ### Account Creation
 
-~ Allows users to register using Google, facebook or their email id.
+~ Allows users to register using Google, Facebook or their email id.
 
 ~ Accepts user input and inserts new user details into the database after hashing the password for security
 
@@ -27,13 +27,13 @@ Deployment Link:
 
 ~ When a user attempts to register with a new email address, the system sends a verification email containing a code.
 
-~ Verifies that the user has access to the provided email address and prevent unauthorized account creation.
+~ Verifies that the user has access to the provided email address and prevents unauthorized account creation.
 
 ~ Uses Gmail API to send emails with a verification code generated based on the current time and a user ID.
 
 ### User Login
 
-~ Allows registered users to log into their accounts using google, facebook or their email and password.
+~ Allows registered users to log into their accounts using Google, Facebook or their email and password.
 
 ~ Verifies user credentials against stored hashed passwords and issues a JWT token for authentication.
 
@@ -45,18 +45,18 @@ Deployment Link:
 
 ## Neighborhood Groups
 
-~ Neiborhood Groups allows residents to connect with their neighbors and engage with their local community. 
+~ Neiborhood Groups allow residents to connect with their neighbors and engage with their local community. 
 
 ~ After user authentication, joining a neighborhood group is mandatory
 
-~ User can create a group by entering name and location fields or user can join a an existing group based on their residential area.
+~ User can create a group by entering name and location fields or user can join an existing group based on their residential area.
 
 ~ Group discussions, polls, and file sharing functionalities within each group.
 
 
 ## Marketplace
 
-~ users can explore local businesses and services within their neighbourhood
+~ Users can explore local businesses and services within their neighborhood
 
 ~ Business owners can advertise their services by creating listings with descriptions, images, and contact information
 
@@ -67,39 +67,39 @@ Deployment Link:
 
 ## Bulletin Board
 
-~ User can see post, announcements, and discussions on the bulletin board
+~ User can see posts, announcements, and discussions on the bulletin board
 
-~ Users can post texts, images and links on the bulletin board and can like, share and comment on the posts
+~ Users can post texts, images, and links on the bulletin board and can like, share, and comment on the posts
 
-~ Users have the ability to pin important posts for easy access.
+~ Users can pin important posts for easy access.
 
-~ The data for posts is stored in the database using an api call
+~ The data for posts is stored in the database using an API call
 
 ~ The data retrieved will be displayed in chronological order on the bulletin board
 
 
 ## Events
 
-~ resident can view the events in his neighbourhood and filter events by date, category, or location.
+~ Resident can view the events in his neighborhood and filter events by date, category, or location.
 
-~ Event organiser can create and manage events
+~ Event organizer can create and manage events
 
 ~ Events are displayed with details (title, date, location, description). Users can RSVP to events.
 
-~ Event creation form UI consists fields for title, date, location, description
+~ Event creation form UI consists of fields for title, date, location, description
 
 ~ Integration with calendar applications for easy scheduling and reminders
 
 
 ## Community Directory
 
-~ Users can access a directory of local services, and amenities such as hospital, police, fire municipalities within his neighbourhood.
+~ Users can access a directory of local services, and amenities such as hospitals, police, and fire municipalities within their neighborhood.
 
-~ Users can search and browse a categorised directory of services. 
+~ Users can search and browse a categorized directory of services. 
 Directory entries display contact information and details.
 
-~ Users can submit new listing for approval.
+~ Users can submit new listings for approval.
 
 ~ The directory UI provides the functionality to search and apply category filters.
 
-~ Backend API manages the directories entries and subimissions.
+~ Backend API manages the directory entries and submissions.
